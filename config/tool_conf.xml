@@ -240,6 +240,7 @@
     <tool file="phenomenal/isatools/mw2isa.xml"/>
     <tool file="phenomenal/isatools/isatab2json.xml"/>
     <tool file="phenomenal/isatools/json2isatab.xml"/>
+    <tool file="phenomenal/isatools/isatab-create-metabolomics.xml"/>
   </section>
 
 </toolbox>
