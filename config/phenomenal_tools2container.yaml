@@ -73,7 +73,7 @@ assignment:
 - docker_image_override: json2isatab
   docker_owner_override: phnmnl
   docker_repo_override: container-registry.phenomenal-h2020.eu
-  docker_tag_override: v0.8.0_cv0.2.26
+  docker_tag_override: v0.9.4_cv0.5.39
   max_pod_retrials: 3
   tools_id:
   - json2isatab
@@ -223,7 +223,7 @@ assignment:
 - docker_image_override: mtblisa
   docker_owner_override: phnmnl
   docker_repo_override: container-registry.phenomenal-h2020.eu
-  docker_tag_override: v0.8.0_cv0.5.44
+  docker_tag_override: v0.9.4_cv0.6.55
   max_pod_retrials: 3
   tools_id:
   - get_study
@@ -265,7 +265,7 @@ assignment:
 - docker_image_override: isatab2json
   docker_owner_override: phnmnl
   docker_repo_override: container-registry.phenomenal-h2020.eu
-  docker_tag_override: v0.8.0_cv0.2.39
+  docker_tag_override: v0.9.4_cv0.5.55
   max_pod_retrials: 3
   tools_id:
   - isatab2json
@@ -293,7 +293,7 @@ assignment:
 - docker_image_override: mw2isa
   docker_owner_override: phnmnl
   docker_repo_override: container-registry.phenomenal-h2020.eu
-  docker_tag_override: v0.5.0_cv0.1.20
+  docker_tag_override: dev_v0.9.4_cv0.4.28
   max_pod_retrials: 3
   tools_id:
   - mw2isa
@@ -314,7 +314,7 @@ assignment:
 - docker_image_override: isatab-validator
   docker_owner_override: phnmnl
   docker_repo_override: container-registry.phenomenal-h2020.eu
-  docker_tag_override: dev_v0.9.4_cv0.4.30
+  docker_tag_override: v0.9.4_cv0.4.31
   max_pod_retrials: 3
   tools_id:
   - isatab_validator
@@ -349,7 +349,7 @@ assignment:
 - docker_image_override: isajson-validator
   docker_owner_override: phnmnl
   docker_repo_override: container-registry.phenomenal-h2020.eu
-  docker_tag_override: v0.8.0_cv0.2.26
+  docker_tag_override: v0.9.4_cv0.4.38
   max_pod_retrials: 3
   tools_id:
   - isajson_validator
@@ -433,3 +433,10 @@ assignment:
   max_pod_retrials: 3
   tools_id:
   - mtbls-labs-uploader
+- docker_image_override: isatab-create
+  docker_owner_override: phnmnl
+  docker_repo_override: container-registry.phenomenal-h2020.eu
+  docker_tag_override: v0.9.4_cv0.2.18
+  max_pod_retrials: 3
+  tools_id:
+  - isa_create_metabolomics
