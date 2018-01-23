@@ -304,6 +304,7 @@
     <tool id="iso2flux" destination="dynamic-k8s-small" resources="all"/>     
     <tool id="midcor" destination="dynamic-k8s-small" resources="all"/>
     <tool id="ramid" destination="dynamic-k8s-tiny" resources="all"/>
+    <tool id="cdf2mid" destination="dynamic-k8s-tiny" resources="all"/>
     <tool id="isodyn" destination="isodyn-container"/>
     <tool id="escher-fluxomics" destination="dynamic-k8s-tiny" resources="all"/>
     <!-- ICL -->
@@ -316,6 +317,11 @@
     <tool id="Multivariate" destination="dynamic-k8s-small" resources="all"/>
     <tool id="Biosigner" destination="dynamic-k8s-medium" resources="all"/>
     <tool id="lcmsmatching" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="Transformation" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="quality_metrics" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="generic_filter" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="Batch_correction" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="normalization" destination="dynamic-k8s-small" resources="all"/>
     <tool id="msconvert2" destination="msconvert2-container"/>
     <!-- new NMR -->
     <tool id="metabolab" destination="dynamic-k8s-large" resources="all"/>
