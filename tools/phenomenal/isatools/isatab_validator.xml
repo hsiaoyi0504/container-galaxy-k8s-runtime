@@ -2,11 +2,11 @@
 <tool id="isatab_validator" name="isatab_validator" version="1.0">
   <description>Produce a validation report on an ISA-Tab ZIP archive</description>
   <command><![CDATA[
-    run_validator.py $isa_file.extra_files_path
+    run_validator.py $isatab.extra_files_path
   ]]>
   </command>
   <inputs>
-      <param name="isa_file" type="data" format="isa" label="ISA-Tab" optional="false" help="The input must contain the i_*.txt, s_*.txt and a_*.txt files expected by ISA-Tab." />
+      <param name="isatab" label="ISA" type="data" format="isa-tab"/>
   </inputs>
   <outputs>
       <data format="json" name="output" from_work_dir="report.json" label="Validation report in JSON format." />
