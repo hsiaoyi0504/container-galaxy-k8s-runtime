@@ -1,9 +1,9 @@
-<tool id="globalalign" name="Global alignment" version="1.0.2">
+<tool id="globalalign" name="Global alignment" version="1.0.3">
     <requirements>
         <container type="docker">container-registry.phenomenal-h2020.eu/phnmnl/tamenmr</container>
     </requirements>
     <description> of spectra </description>
-    <command interpreter="Rscript">
+    <command>
         GlobalAlign.R --input=$input --output=$output
     </command>
 
