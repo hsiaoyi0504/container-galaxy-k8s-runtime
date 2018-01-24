@@ -1,9 +1,9 @@
-<tool id="normalise_data" name="Normalise" version="0.0.2">
+<tool id="normalise_data" name="Normalise" version="0.0.3">
     <requirements>
         <container type="docker">container-registry.phenomenal-h2020.eu/phnmnl/tamenmr</container>
     </requirements>
     <description>a data table</description>
-    <command interpreter="Rscript">
+    <command>
         #if $method_choice.method == "refPeak"
             norm_data.R --input=$input --output=$output --type=$method_choice.method --param=$method_choice.param
         #else

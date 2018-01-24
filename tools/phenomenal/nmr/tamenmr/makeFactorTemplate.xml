@@ -1,9 +1,9 @@
-<tool id="factorTemp" name="Make" version="0.0.2">
+<tool id="factorTemp" name="Make" version="0.0.3">
     <requirements>
         <container type="docker">container-registry.phenomenal-h2020.eu/phnmnl/tamenmr</container>
     </requirements>
     <description> a factor template  </description>
-    <command interpreter="Rscript">
+    <command>
         MakeFactTemp.R --input=$input --output=$output
     </command>
 
