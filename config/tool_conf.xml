@@ -81,6 +81,31 @@
     <tool file="phenomenal/nmr/soap_process.xml"/>
     <tool file="phenomenal/nmr/soap_opls.xml"/>
   </section>
+  <section name="tameNMR" id="pheno-tamenmr">
+    <tool file="phenomenal/nmr/tamenmr/add_remove_merge.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/alignment.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/anova.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/binning.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/globalAlign.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/ident.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/import_to_csv.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/import_to_nmrML.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/makeFactorTemplate.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/norm_data.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/normalisation.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/pca.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/peakPicking.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/plotNMR.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/plotNMRSig.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/plsda.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/prepPattern.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/quant.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/quantilePlot.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/scaling.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/slice.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/transform.xml"/>
+    <tool file="phenomenal/nmr/tamenmr/ttest.xml"/>
+  </section>
   <section name="STATS" id="pheno-stats">
     <tool file="phenomenal/stats/papy.xml"/>
   </section>

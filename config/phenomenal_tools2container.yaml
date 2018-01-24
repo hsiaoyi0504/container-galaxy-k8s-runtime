@@ -2,6 +2,36 @@ global:
   docker_repo:
   max_pod_retrials: 3
 assignment:
+# tameNMR
+- tools_id:
+    - add_remove_merge
+    - alignment
+    - anova
+    - binning
+    - globalAlign
+    - ident
+    - import_to_csv
+    - import_to_nmrML
+    - makeFactorTemplate
+    - norm_data
+    - normalisation
+    - pca
+    - peakPicking
+    - plotNMR
+    - plotNMRSig
+    - plsda
+    - prepPattern
+    - quant
+    - quantilePlot
+    - scaling
+    - slice
+    - transform
+    - ttest
+  docker_repo_override: container-registry.phenomenal-h2020.eu
+  docker_owner_override: phnmnl
+  docker_image_override: tamenmr
+  docker_tag_override: latest
+  max_pod_retrials: 3
 # Fluxomics
 - tools_id: 
    - escher-fluxomics

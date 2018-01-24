@@ -127,6 +127,14 @@
       <param id="max_pod_retrials">3</param>
       <param id="docker_enabled">true</param>
     </destination>
+    <destination id="tamenmr-container" runner="k8s">
+      <param id="docker_repo_override">container-registry.phenomenal-h2020.eu</param>
+      <param id="docker_owner_override">phnmnl</param>
+      <param id="docker_image_override">tamenmr</param>
+      <param id="docker_tag_override">latest</param>
+      <param id="max_pod_retrials">3</param>
+      <param id="docker_enabled">true</param>
+    </destination>
     <destination id="metfrag-cli-container" runner="k8s">
       <param id="docker_repo_override">container-registry.phenomenal-h2020.eu</param>
       <param id="docker_owner_override">phnmnl</param>
@@ -344,6 +352,30 @@
     <tool id="Metabolite_ID_Converter" destination="container-metaboliteidconverter" />
     <tool id="metabomatching" destination="metabomatching-container"/>
     <tool id="ms-vfetc" destination="leidenuniv-ms-vfetc-container"/>
+    <!-- tameNMR -->
+    <tool id="add_remove_merge" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="alignment" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="anova" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="binning" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="globalAlign" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="ident" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="import_to_csv" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="import_to_nmrML" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="makeFactorTemplate" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="norm_data" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="normalisation" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="pca" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="peakPicking" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="plotNMR" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="plotNMRSig" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="plsda" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="prepPattern" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="quant" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="quantilePlot" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="scaling" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="slice" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="transform" destination="dynamic-k8s-small" resources="all"/>
+    <tool id="ttest" destination="dynamic-k8s-small" resources="all"/>
     <!-- new XCMS -->
     <tool id="xcms-find-peaks" destination="dynamic-k8s-large" resources="all"/>
     <tool id="xcms-collect-peaks" destination="dynamic-k8s-medium" resources="all"/>

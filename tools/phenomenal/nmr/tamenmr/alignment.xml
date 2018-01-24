@@ -1,0 +1,29 @@
+<tool id="align" name="Local alignment" version="0.0.2">
+    <requirements>
+        <container type="docker">container-registry.phenomenal-h2020.eu/phnmnl/tamenmr</container>
+    </requirements>
+    <description> of spectra</description>
+    <command interpreter="Rscript">
+        Align.R --inData=$input --inPeaks=$peaks --output=$output
+    </command>
+
+    <inputs>
+        <param name="input" type="data" label="NMR Spectra" />
+        <param name="peaks" type="data" label="Peak File" />
+    </inputs>
+
+    <outputs>
+        <data format="tabular" name="output" label="Aligned Data"/>
+    </outputs>
+
+    <!--
+    <requirements>
+    </requirements>
+
+    <tests>
+    </tests>
+
+    <help>
+    </help>
+-->
+</tool>
