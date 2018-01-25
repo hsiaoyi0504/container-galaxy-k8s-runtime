@@ -2,14 +2,14 @@
 <tool id="json2isatab" name="json2isatab" version="1.0">
   <description>Converts an ISA-JSON file to an ISA-Tab ZIP archive</description>
   <command><![CDATA[
-    run_json2tab.py $isa_file
+    run_json2tab.py $isa_file "${output.extra_files_path}"
   ]]>
   </command>
   <inputs>
       <param name="isa_file" type="data" format="json" label="ISA-JSON file." optional="false" help="The input JSON file must be in valid ISA-JSON format."/>
   </inputs>
   <outputs>
-    <data format="isa" name="output" label="$isa_file as isa-tab" />
+    <data format="isa-tab" name="output" label="$isa_file as isa-tab" />
   </outputs>
 
   <help>

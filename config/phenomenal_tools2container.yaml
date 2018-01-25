@@ -80,7 +80,7 @@ assignment:
 - docker_image_override: json2isatab
   docker_owner_override: phnmnl
   docker_repo_override: container-registry.phenomenal-h2020.eu
-  docker_tag_override: v0.9.4_cv0.5.39
+  docker_tag_override: dev_v0.9.4_cv0.5.41
   max_pod_retrials: 3
   tools_id:
   - json2isatab
@@ -484,7 +484,7 @@ assignment:
 - docker_image_override: isatab-create
   docker_owner_override: phnmnl
   docker_repo_override: container-registry.phenomenal-h2020.eu
-  docker_tag_override: v0.9.4_cv0.2.18
+  docker_tag_override: dev_v0.9.4_cv0.3.25
   max_pod_retrials: 3
   tools_id:
-  - isa_create_metabolomics
+  - isa_create_isatab

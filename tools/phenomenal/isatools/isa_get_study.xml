@@ -2,7 +2,7 @@
 <tool id="isa_get_study" name="Get an ISA study" version="1.0">
     <description>Get an ISA dataset from MetaboLights</description>
     <command><![CDATA[
-        run_mtblisa.py get-study "${mtbls_id}" "${output.extra_files_path}" --isa-format ${isa_format}
+        run_mtblisa.py get-study "${mtbls_id}" "${isatab.extra_files_path}" --isa-format ${isa_format}
     ]]></command>
     <inputs>
         <param name="mtbls_id" type="text" label="Metabolights Study Identifier"/>
