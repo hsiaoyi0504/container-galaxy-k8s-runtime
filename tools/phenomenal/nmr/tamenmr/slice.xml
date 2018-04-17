@@ -3,8 +3,9 @@
         <container type="docker">container-registry.phenomenal-h2020.eu/phnmnl/tamenmr</container>
     </requirements>
     <description> NMR spectra </description>
-    <command>
+    <command>[CDATA[
         SliceSpectra.R --input=$input --output=$output --retainPpm=$retain --remWater=$remWater
+        ]]
     </command>
 
     <inputs>

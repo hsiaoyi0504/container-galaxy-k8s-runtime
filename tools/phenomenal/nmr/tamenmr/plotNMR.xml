@@ -3,7 +3,7 @@
         <container type="docker">container-registry.phenomenal-h2020.eu/phnmnl/tamenmr</container>
     </requirements>
     <description> spectra </description>
-    <command>
+    <command>[CDATA[
         PlotNMR.R --input=$input --output=$output --outDir=$output.files_path --ppmInt=$ppmInt --spread=$spread
         
         #if $groups_choice.factCond == "Y":
@@ -23,6 +23,7 @@
         #else
           --plotBins=N
         #end if
+        ]]
         
     </command>
 

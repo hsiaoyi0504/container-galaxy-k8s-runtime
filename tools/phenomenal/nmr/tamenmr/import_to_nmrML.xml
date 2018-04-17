@@ -4,7 +4,9 @@
     </requirements>
     <description> NMR data to nmrML</description>
     <command interpreter="python">
+        [CDATA[
         import2nmrML.py $input $output $proc
+        ]]
     </command>
 
     <inputs>

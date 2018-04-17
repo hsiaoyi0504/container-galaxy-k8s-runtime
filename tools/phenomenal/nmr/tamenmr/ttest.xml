@@ -3,7 +3,7 @@
         <container type="docker">container-registry.phenomenal-h2020.eu/phnmnl/tamenmr</container>
     </requirements>
     <description>  </description>
-    <command>
+    <command>[CDATA[
         Ttest.R --input=$input --output=$output --outdir=$output.files_path --factorFile=$factorFile --factorCol=$factorCol --tails=$way --conf_level=$conf_level --adjust=$adjust
         
         #if $paired_choice.paired == "Y":
@@ -11,6 +11,7 @@
         #else
           --paired=N
         #end if
+        ]]
     </command>
 
     <inputs>

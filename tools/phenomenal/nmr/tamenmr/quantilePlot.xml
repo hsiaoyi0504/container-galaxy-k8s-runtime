@@ -3,8 +3,9 @@
         <container type="docker">container-registry.phenomenal-h2020.eu/phnmnl/tamenmr</container>
     </requirements>
     <description> </description>
-    <command>
+    <command>[CDATA[
         QuantilePlot.R --input=$input --output=$output --outDir=$output.files_path --ppmInt=$ppmInt --pltMean=$pltMean
+        ]]
     </command>
 
     <inputs>
