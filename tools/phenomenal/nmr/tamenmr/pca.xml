@@ -3,12 +3,12 @@
         <container type="docker">container-registry.phenomenal-h2020.eu/phnmnl/tamenmr</container>
     </requirements>
     <description> </description>
-    <command>
-        PCA.R --input=$input --output=$output --outdir=$output.files_path --scale=$scale --pcs=$pcs
-        
-        #if $group_choice.group == "Y":
-        --factorFile=$group_choice.factorFile --factorCol=$group_choice.factorCol
-        #end if
+    <command><![CDATA[
+      PCA.R --input=$input --output=$output --outdir=$output.files_path --scale=$scale --pcs=$pcs
+      #if $group_choice.group == "Y":
+      --factorFile=$group_choice.factorFile --factorCol=$group_choice.factorCol
+      #end if
+      ]]>
         
     </command>
 
