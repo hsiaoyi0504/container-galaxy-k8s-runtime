@@ -5,9 +5,9 @@
     <description></description>
     <command><![CDATA[
         #if $method_choice.method == "refPeak"
-            Normalise.R --input=$input --output=$output --type=$method_choice.method --param=$method_choice.param
+        Normalise.R --input=$input --output=$output --type=$method_choice.method --param=$method_choice.param
         #else
-            Normalise.R --input=$input --output=$output --type=$method_choice.method
+        Normalise.R --input=$input --output=$output --type=$method_choice.method
         #end if
         ]]>
     </command>

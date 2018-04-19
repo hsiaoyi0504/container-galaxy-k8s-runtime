@@ -4,33 +4,31 @@ global:
 assignment:
 # tameNMR
 - tools_id:
-    - add_remove_merge
-    - alignment
-    - anova
-    - binning
-    - globalAlign
-    - ident
-    - import_to_csv
-    - import_to_nmrML
-    - makeFactorTemplate
-    - norm_data
-    - normalisation
-    - pca
-    - peakPicking
-    - plotNMR
-    - plotNMRSig
-    - plsda
-    - prepPattern
-    - quant
-    - quantilePlot
-    - scaling
-    - slice
-    - transform
-    - ttest
+   - addremmerge
+   - align
+   - anova
+   - binning
+   - globalalign
+   - import_to_csv
+   - import_to_nmrML
+   - factorTemp
+   - normalise_data
+   - normalise
+   - pca
+   - peakpick
+   - plotnmr
+   - plotnmrsig
+   - pls-da
+   - prepPattern
+   - quantilePlot
+   - scaling
+   - slice
+   - transform
+   - ttest
   docker_repo_override: container-registry.phenomenal-h2020.eu
   docker_owner_override: phnmnl
   docker_image_override: tamenmr
-  docker_tag_override: v1.0_cv0.2.6
+  docker_tag_override: v1.0_cv0.3.7
   max_pod_retrials: 3
 # Fluxomics
 - tools_id: 
