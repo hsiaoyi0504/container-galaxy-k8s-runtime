@@ -3,8 +3,9 @@
         <container type="docker">container-registry.phenomenal-h2020.eu/phnmnl/tamenmr</container>
     </requirements>
     <description>  </description>
-    <command>
+    <command><![CDATA[
         Anova.R --input=$input --output=$output --outdir=$output.files_path --factorFile=$factorFile --factorCol=$factorCol --adjust=$adjust --conf_level=$conf_level
+        ]]>
     </command>
 
     <inputs>

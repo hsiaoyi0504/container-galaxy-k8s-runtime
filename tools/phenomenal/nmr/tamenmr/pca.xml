@@ -9,7 +9,6 @@
       --factorFile=$group_choice.factorFile --factorCol=$group_choice.factorCol
       #end if
       ]]>
-        
     </command>
 
     <inputs>

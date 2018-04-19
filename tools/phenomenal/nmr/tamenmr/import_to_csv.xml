@@ -3,12 +3,13 @@
         <container type="docker">container-registry.phenomenal-h2020.eu/phnmnl/tamenmr</container>
     </requirements>
     <description> Bruker NMR data </description>
-    <command interpreter="python">
+    <command interpreter="python"><![CDATA[
         #if str($input_type.source) == "data":
             import2csv.py $input_type.input $output data
         #else:
             import2csv.py $input_type.input $output ftp
         #end if
+        ]]>
     </command>
 
     <inputs>
